@@ -1,0 +1,12 @@
+[package]
+name = "unpack_depth_map"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+clap = { version = "4.5.21", features = ["derive", "env"] }
+dotenvy = { version = "0.15.7", features = ["clap"] }
+indicatif = "0.17.9"
+num_cpus = "1.16.0"
+png = "0.17.14"
